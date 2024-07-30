@@ -216,7 +216,7 @@ public class EditSession implements Extent, AutoCloseable {
     private final @Nullable List<TracingExtent> tracingExtents;
 
     @Deprecated
-    private ReorderMode reorderMode = ReorderMode.FAST;
+    private ReorderMode reorderMode = ReorderMode.MULTI_STAGE;
 
     private Mask oldMask;
 
